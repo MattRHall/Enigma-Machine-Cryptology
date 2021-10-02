@@ -271,7 +271,7 @@ Methods
 Will instantiate engima machine object, and create all the instance attributes shown above. It requires a Rotor_spindle object, Reflector object and an optional Plugboard.
 
 - **encode(self, word, output = False)**  
-Will return an encoded string. If output is True, then basic print out will be displayed which show the starting setup of the machine, the position of the rotors, and the encoded string. 
+Will return an encoded string. If output True, then basic print out will be displayed which show the starting setup of the machine, the position of the rotors, and the encoded string. 
 
 ```python
 pb1 = Plugboard()
